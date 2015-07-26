@@ -82,7 +82,7 @@ a:hover {
 
 
 .active {
-	color: #81D425 !important;
+	color: #d8e0ff !important;
 }
 
 
@@ -100,6 +100,12 @@ a:hover {
 
 .topContent, .bottomContent {
 	background-color: white;
+	padding: 1% 5% 1% 5%;
+	margin-top: 2%;
+
+}
+
+.comments {
 	padding: 1% 5% 1% 5%;
 	margin-top: 2%;
 
@@ -304,7 +310,7 @@ End Navigation */
 		margin: 0 auto;
 	}
 
-	.top-sidebar, .middle-sidebar, .bottom-sidebar {
+	.feedSide {
 		width: 94%;
 		margin: 2% 0 2% 0;
 		padding: 2% 3%;
